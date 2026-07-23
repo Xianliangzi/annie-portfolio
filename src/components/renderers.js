@@ -30,11 +30,11 @@
   const mediaBlock = (type, src, label, lightboxGroup = "", fullSrc = "") => {
     if (type === "video") {
       const video = videoSource(src);
+      if (!video.src) return "";
+
       return `
         <div class="media-block video-block">
-          ${video.src
-            ? `<video controls preload="metadata"${video.poster ? ` poster="${video.poster}"` : ""}><source src="${video.src}" type="video/mp4"></video>`
-            : `<div class="video-empty" aria-label="视频待补充"></div>`}
+          <video controls preload="metadata"${video.poster ? ` poster="${video.poster}"` : ""}><source src="${video.src}" type="video/mp4"></video>
         </div>
       `;
     }
@@ -373,8 +373,7 @@
           <p>${data.resume.note}</p>
         </div>
         <div class="action-row">
-          <a class="button" href="${data.resume.pdf}" target="_blank" rel="noreferrer">查看简历</a>
-          <a class="button ghost" href="${data.resume.pdf}?download=1" download="杜可心-简历.pdf">下载简历</a>
+          <a class="button" href="${data.resume.pdf}" target="_blank" rel="noreferrer">预览简历</a>
         </div>
       </div>
     </section>
@@ -386,7 +385,7 @@
       <div class="contact-panel">
         <a href="mailto:${data.contact.email}">${data.contact.email}</a>
         <p>${data.contact.socials.join(" / ")}</p>
-        <span>${data.contact.note}</span>
+        ${data.contact.note ? `<span>${data.contact.note}</span>` : ""}
       </div>
     </section>
   `;
@@ -449,9 +448,7 @@
               ${(project.images || []).map((src, index) => mediaBlock("image", src, `${project.title} ${index + 1}`, `project-${project.id}`)).join("")}
             </div>
           ` : ""}
-          <div class="link-stack">
-            ${projectLinks.length ? projectLinks.map((link) => `<a class="button ghost" href="${link.url}">${link.label}</a>`).join("") : "<span>相关链接可在数据文件中补充</span>"}
-          </div>
+          ${projectLinks.length ? `<div class="link-stack">${projectLinks.map((link) => `<a class="button ghost" href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join("")}</div>` : ""}
         </aside>
         <div class="detail-content">
           ${sectionTitle("项目简介", "Project Summary")}<p>${project.summary}</p>
@@ -459,7 +456,7 @@
           ${sectionTitle("我的探索过程", "Exploration Process")}<ol>${textList(project.process)}</ol>
           ${sectionTitle("使用工具", "Tools")}<div class="keyword-row">${tags(project.tools)}</div>
           ${sectionTitle("项目成果", "Results")}<ul>${textList(project.results)}</ul>
-          ${sectionTitle("相关链接", "Links")}<div class="action-row">${projectLinks.map((link) => `<a class="button" href="${link.url}">${link.label}</a>`).join("") || "<span>暂无链接</span>"}</div>
+          ${projectLinks.length ? `${sectionTitle("相关链接", "Links")}<div class="action-row">${projectLinks.map((link) => `<a class="button" href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join("")}</div>` : ""}
         </div>
       </section>
     `;

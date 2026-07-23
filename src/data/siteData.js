@@ -7,7 +7,7 @@
     summary: "我是一名数字媒体艺术背景的创作者，持续探索 AI 技术如何应用于创意表达、工作流程优化和实际问题解决。",
     school: "广东工业大学",
     major: "数字媒体艺术专业",
-    introVideo: { src: "src/assets/videos/about-intro.mp4", poster: "src/assets/images/about-intro-cover.webp" },
+    introVideo: { src: "src/assets/videos/about-intro.mp4", poster: "src/assets/images/about-intro-cover.png" },
     keywords: ["AI Exploration", "AIGC Creation", "Data Analysis", "Creative Technology", "Visual Design"],
     directions: ["AI工具探索", "数字创意实践", "数据分析", "视觉表达"],
     abilities: [
@@ -58,8 +58,8 @@
         "触达创作者 300+"
       ],
       growth: "这段经历让我深入理解平台生态运营逻辑，也让我开始探索如何利用 AI 工具提升运营效率，将技术应用到真实业务场景中。",
-      video: { src: "src/assets/videos/experience-baidu.mp4", poster: "src/assets/images/experience-baidu-cover.webp" },
-      cover: "src/assets/images/experience-baidu-cover.webp",
+      video: { src: "src/assets/videos/experience-baidu.mp4", poster: "src/assets/images/experience-baidu-cover.png" },
+      cover: "src/assets/images/experience-baidu-cover.png",
       images: []
     },
     {
@@ -83,8 +83,8 @@
         "搜索排名提升 10 位+"
       ],
       growth: "这段经历让我认识到内容效果不仅依靠创意，也需要结合数据反馈理解用户需求，并不断优化传播策略。",
-      video: { src: "src/assets/videos/experience-oppo.mp4", poster: "src/assets/images/experience-oppo-cover.webp" },
-      cover: "src/assets/images/experience-oppo-cover.webp",
+      video: { src: "src/assets/videos/experience-oppo.mp4", poster: "src/assets/images/experience-oppo-cover.png" },
+      cover: "src/assets/images/experience-oppo-cover.png",
       images: []
     },
     {
@@ -106,8 +106,8 @@
         "平均阅读 3000+"
       ],
       growth: "这段经历提升了我将复杂信息转化为易传播内容的能力，也让我开始尝试利用 AI 优化内容生产流程。",
-      video: { src: "src/assets/videos/experience-art-expo.mp4", poster: "src/assets/images/experience-art-expo-cover.webp" },
-      cover: "src/assets/images/experience-art-expo-cover.webp",
+      video: { src: "src/assets/videos/experience-art-expo.mp4", poster: "src/assets/images/experience-art-expo-cover.png" },
+      cover: "src/assets/images/experience-art-expo-cover.png",
       images: []
     }
   ],
@@ -118,8 +118,8 @@
       subtitle: "AI Creative Radar",
       year: "2026",
       tags: ["AI Workflow", "Vibe Coding", "AI Tool Prototype"],
-      cover: "src/assets/images/project-ai-creative-radar-cover.webp",
-      video: { src: "src/assets/videos/project-ai-creative-radar.mp4", poster: "src/assets/images/project-ai-creative-radar-video-cover.webp" },
+      cover: "src/assets/images/project-ai-creative-radar-cover.png",
+      video: { src: "src/assets/videos/project-ai-creative-radar.mp4", poster: "src/assets/images/project-ai-creative-radar-video-cover.png" },
       summary: "一个面向 AI 视觉创作者的创作前期工具原型，用于 AI 资讯扫描、灵感整理、方案脑暴和本地归档。这个项目重点展示我如何主动尝试 AI API 与 Vibe Coding，把 AI 能力转化为可使用的网页工具。",
       background: "AI 创作者在进入图片、海报或视频生成之前，常常需要先完成趋势观察、灵感收集和方案判断。AI创意雷达尝试解决的是创作前期的信息分散与方案整理问题，而不是直接替代创作者生成最终视觉作品。",
       process: [
@@ -140,7 +140,7 @@
         {
           title: "详情展示",
           description: "展示 AI Creative Radar 的功能流程与页面使用方式，不作为项目介绍视频。",
-          video: { src: "src/assets/videos/project-ai-creative-radar-detail.mp4", poster: "src/assets/images/project-ai-creative-radar-cover.webp" }
+          video: { src: "src/assets/videos/project-ai-creative-radar-detail.mp4", poster: "src/assets/images/project-ai-creative-radar-cover.png" }
         }
       ],
       images: []
@@ -151,8 +151,8 @@
       subtitle: "Algorithm Sutra",
       year: "2025",
       tags: ["AIGC Film", "Interactive Narrative", "Unity Experience"],
-      cover: "src/assets/images/project-algorithm-sutra-01-cover-background.webp",
-      video: { src: "src/assets/videos/project-algorithm-sutra.mp4", poster: "src/assets/images/project-algorithm-sutra-01-cover-background.webp" },
+      cover: "src/assets/images/project-algorithm-sutra-01-cover-background.png",
+      video: { src: "src/assets/videos/project-algorithm-sutra.mp4", poster: "src/assets/images/project-algorithm-sutra-01-cover-background.png" },
       summary: "一个结合 AIGC 影像、世界观设定和 Unity 交互体验的创意叙事项目，探索 AI 生成视觉如何参与数字媒体艺术表达。",
       background: "项目从算法、信仰、技术感知和数字叙事出发，尝试把抽象的技术概念转译为具有仪式感和世界观的影像体验。",
       process: [
@@ -170,13 +170,13 @@
       github: "",
       demo: "",
       images: [
-        "src/assets/images/project-algorithm-sutra-01-cover-background.webp",
-        "src/assets/images/project-algorithm-sutra-02-research-concept.webp",
-        "src/assets/images/project-algorithm-sutra-03-worldline.webp",
-        "src/assets/images/project-algorithm-sutra-04-framework-process.webp",
-        "src/assets/images/project-algorithm-sutra-05-production-unity.webp",
-        "src/assets/images/project-algorithm-sutra-06-final-showcase-01.webp",
-        "src/assets/images/project-algorithm-sutra-07-final-showcase-02.webp"
+        "src/assets/images/project-algorithm-sutra-01-cover-background.png",
+        "src/assets/images/project-algorithm-sutra-02-research-concept.png",
+        "src/assets/images/project-algorithm-sutra-03-worldline.png",
+        "src/assets/images/project-algorithm-sutra-04-framework-process.png",
+        "src/assets/images/project-algorithm-sutra-05-production-unity.png",
+        "src/assets/images/project-algorithm-sutra-06-final-showcase-01.png",
+        "src/assets/images/project-algorithm-sutra-07-final-showcase-02.png"
       ]
     },
     {
@@ -185,10 +185,10 @@
       subtitle: "Creator Discovery Tool",
       year: "2026",
       tags: ["AI Workflow", "Creator Operation Tool"],
-      cover: "src/assets/images/project-creator-discovery-cover.webp",
-      video: { src: "src/assets/videos/project-creator-discovery.mp4", poster: "src/assets/images/project-creator-discovery-cover.webp" },
+      cover: "src/assets/images/project-creator-discovery-cover.png",
+      video: { src: "src/assets/videos/project-creator-discovery.mp4", poster: "src/assets/images/project-creator-discovery-cover.png" },
       summary: "一个面向真实运营场景的 AI 工作流探索项目，用于辅助创作者搜索、信息整理和候选名单筛选。",
-      background: "在创作者运营工作中，作者发现、信息汇总和初步判断往往需要重复切换平台与表格。这个工具尝试用 AI 和网页工具把重复整理流程变得更轻量。由于它最初服务于实际工作场景，并考虑到使用环境、配置成本和时间限制，暂未进行线上部署，但已上传 GitHub 便于查看代码与实现思路。",
+      background: "在创作者运营工作中，作者发现、信息汇总和初步判断往往需要重复切换平台与表格。这个工具尝试用 AI 和网页工具把重复整理流程变得更轻量，并以 GitHub 代码仓库展示实现思路。",
       process: [
         "拆解创作者挖掘流程，明确搜索、记录、筛选、备注等高频动作。",
         "设计轻量网页界面，把分散信息整理为更易比较的候选卡片。",
@@ -212,8 +212,8 @@
       subtitle: "Bai Ze",
       year: "2025",
       tags: ["AIGC Film", "Visual Experiment"],
-      cover: "src/assets/images/project-bai-ze-01-research-overview.webp",
-      video: { src: "src/assets/videos/project-bai-ze.mp4", poster: "src/assets/images/project-bai-ze-01-research-overview.webp" },
+      cover: "src/assets/images/project-bai-ze-01-research-overview.png",
+      video: { src: "src/assets/videos/project-bai-ze.mp4", poster: "src/assets/images/project-bai-ze-01-research-overview.png" },
       summary: "一个以 AI 视频生成和视觉风格探索为核心的 AIGC 影像作品，关注神话意象、情绪氛围和镜头语言的结合。",
       background: "项目以东方神话意象为灵感，尝试通过 AI 生成工具重构传统视觉元素，让神话角色在新的数字影像语境中被重新观看。",
       process: [
@@ -231,10 +231,10 @@
       github: "",
       demo: "",
       images: [
-        "src/assets/images/project-bai-ze-01-research-overview.webp",
-        "src/assets/images/project-bai-ze-02-technical-implementation.webp",
-        "src/assets/images/project-bai-ze-03-work-definition.webp",
-        "src/assets/images/project-bai-ze-04-final-effect.webp"
+        "src/assets/images/project-bai-ze-01-research-overview.png",
+        "src/assets/images/project-bai-ze-02-technical-implementation.png",
+        "src/assets/images/project-bai-ze-03-work-definition.png",
+        "src/assets/images/project-bai-ze-04-final-effect.png"
       ]
     },
     {
@@ -243,8 +243,8 @@
       subtitle: "Smart Medicine Box",
       year: "2024",
       tags: ["UX Design", "Interaction Design"],
-      cover: "src/assets/images/project-smart-medicine-box-01-concept-background.webp",
-      video: { src: "", poster: "src/assets/images/project-smart-medicine-box-01-concept-background.webp" },
+      cover: "src/assets/images/project-smart-medicine-box-01-concept-background.png",
+      video: { src: "", poster: "src/assets/images/project-smart-medicine-box-01-concept-background.png" },
       summary: "一个围绕用药提醒与家庭健康管理场景的交互设计项目，展示用户需求分析、功能规划和界面原型能力。",
       background: "面对老年人、慢病人群和家庭照护场景，传统药品收纳和用药提醒容易出现遗忘、混乱和信息不透明的问题。项目尝试用交互设计改善日常用药体验。",
       process: [
@@ -262,11 +262,11 @@
       github: "",
       demo: "",
       images: [
-        "src/assets/images/project-smart-medicine-box-01-concept-background.webp",
-        "src/assets/images/project-smart-medicine-box-02-research-analysis.webp",
-        "src/assets/images/project-smart-medicine-box-03-design-process.webp",
-        "src/assets/images/project-smart-medicine-box-04-mobile-product.webp",
-        "src/assets/images/project-smart-medicine-box-05-functions-canvas.webp"
+        "src/assets/images/project-smart-medicine-box-01-concept-background.png",
+        "src/assets/images/project-smart-medicine-box-02-research-analysis.png",
+        "src/assets/images/project-smart-medicine-box-03-design-process.png",
+        "src/assets/images/project-smart-medicine-box-04-mobile-product.png",
+        "src/assets/images/project-smart-medicine-box-05-functions-canvas.png"
       ]
     }
   ],
@@ -318,7 +318,7 @@
       titleEn: "Channel Practice",
       type: "channel",
       description: "个人短视频账号与 IP 内容实践，包含 IP 二创、漫画解说、人物解析和日常 Vlog 创作。",
-      cover: "src/assets/images/lab-channel-naiwa-douyin.webp",
+      cover: "src/assets/images/lab-channel-naiwa-douyin.png",
       link: "channels.html",
       linkLabel: "查看账号案例",
       accountName: "2 个账号案例",
@@ -330,7 +330,7 @@
       titleEn: "Photography",
       type: "photography",
       description: "照片展示与视觉观察。按系列整理不同主题的摄影作品。",
-      cover: "src/assets/images/photography/horror-house/thumb/horror-house-01.webp",
+      cover: "src/assets/images/photography/horror-house/thumb/horror-house-01.jpg",
       link: "photography.html",
     },
     {
@@ -338,7 +338,7 @@
       titleEn: "AI Visual Experiments",
       type: "ai-visual",
       description: "AI生成实验、风格探索和意识流视频。",
-      cover: "src/assets/images/lab-ai-visual-poetry-paradise-cover.webp",
+      cover: "src/assets/images/lab-ai-visual-poetry-paradise-cover.png",
       link: "ai-visual.html",
       linkLabel: "查看视觉实验"
     }
@@ -352,7 +352,7 @@
       description: "一次围绕视觉语言、诗性氛围和动态影像表达展开的 AI 视觉实验，尝试用影像节奏与画面情绪构建偏意识流的观看体验。",
       video: {
         src: "src/assets/videos/lab-ai-visual-poetry-paradise.mp4",
-        poster: "src/assets/images/lab-ai-visual-poetry-paradise-cover.webp"
+        poster: "src/assets/images/lab-ai-visual-poetry-paradise-cover.png"
       },
       tags: ["AI视觉实验", "动态影像", "视觉语言", "诗性表达"]
     }
@@ -363,7 +363,7 @@
       title: "神秘咖啡研究室",
       subtitle: "Naiwa IP Re-creation",
       type: "奶蛙 IP 运营 / 短视频二创",
-      cover: "src/assets/images/lab-channel-naiwa-douyin.webp",
+      cover: "src/assets/images/lab-channel-naiwa-douyin.png",
       url: "https://www.douyin.com/user/self?from_tab_name=main",
       description: "围绕互联网上具有传播度和幽默感的奶蛙 IP 形象，进行角色设定、短视频内容策划与二次创作表达，尝试把流行梗、职场情境和角色化视觉结合起来。",
       highlights: ["IP 二创内容策划", "角色化短视频表达", "梗文化与日常情境结合", "账号视觉与内容调性搭建"],
@@ -374,7 +374,7 @@
       title: "需要现实止痛剂",
       subtitle: "Manga Commentary / Personal Vlog",
       type: "漫画解说 / 人物解析 / 兴趣 Vlog",
-      cover: "src/assets/images/lab-channel-manga-vlog-douyin.webp",
+      cover: "src/assets/images/lab-channel-manga-vlog-douyin.png",
       url: "https://www.douyin.com/user/MS4wLjABAAAAQ9rsAHsbIbh2bStX73idrUu6SbJLODHBxqmUIASeY1Q?from_tab_name=main",
       description: "偏个人兴趣表达的内容账号，围绕漫画解说、人物关系解析、角色讨论和日常 Vlog 展开创作，用更轻松的方式把个人审美、兴趣观察和叙事表达转化为短视频内容。",
       highlights: ["漫画解说与人物解析", "个人兴趣向内容表达", "日常 Vlog 创作", "产出过 10 万+ 播放内容"],
@@ -388,13 +388,13 @@
       subtitle: "Horror House",
       category: "情绪与实验影像",
       description: "以空间、光线和人物状态构建带有悬疑感的视觉叙事。",
-      cover: "src/assets/images/photography/horror-house/thumb/horror-house-01.webp",
+      cover: "src/assets/images/photography/horror-house/thumb/horror-house-01.jpg",
       photos: Array.from({ length: 41 }, (_, index) => {
         const number = String(index + 1).padStart(2, "0");
         return {
           title: `恐怖屋 ${number}`,
-          thumbnail: `src/assets/images/photography/horror-house/thumb/horror-house-${number}.webp`,
-          full: `src/assets/images/photography/horror-house/full/horror-house-${number}.webp`,
+          thumbnail: `src/assets/images/photography/horror-house/thumb/horror-house-${number}.jpg`,
+          full: `src/assets/images/photography/horror-house/full/horror-house-${number}.jpg`,
           alt: `恐怖屋摄影作品 ${number}`
         };
       })
@@ -405,13 +405,13 @@
       subtitle: "Summer Firefly",
       category: "人像摄影",
       description: "以夏日、光影和日系色调为核心，呈现轻盈、明亮的影像氛围。",
-      cover: "src/assets/images/photography/summer-firefly/thumb/summer-firefly-01.webp",
+      cover: "src/assets/images/photography/summer-firefly/thumb/summer-firefly-01.jpg",
       photos: Array.from({ length: 31 }, (_, index) => {
         const number = String(index + 1).padStart(2, "0");
         return {
           title: `夏荧 ${number}`,
-          thumbnail: `src/assets/images/photography/summer-firefly/thumb/summer-firefly-${number}.webp`,
-          full: `src/assets/images/photography/summer-firefly/full/summer-firefly-${number}.webp`,
+          thumbnail: `src/assets/images/photography/summer-firefly/thumb/summer-firefly-${number}.jpg`,
+          full: `src/assets/images/photography/summer-firefly/full/summer-firefly-${number}.jpg`,
           alt: `夏荧摄影作品 ${number}`
         };
       })
@@ -422,13 +422,13 @@
       subtitle: "Bad Luck",
       category: "情绪与实验影像",
       description: "以强烈色彩、暗调氛围和人物状态构建具有压迫感的视觉叙事。",
-      cover: "src/assets/images/photography/bad-luck/thumb/bad-luck-01.webp",
+      cover: "src/assets/images/photography/bad-luck/thumb/bad-luck-01.jpg",
       photos: Array.from({ length: 20 }, (_, index) => {
         const number = String(index + 1).padStart(2, "0");
         return {
           title: `厄运 ${number}`,
-          thumbnail: `src/assets/images/photography/bad-luck/thumb/bad-luck-${number}.webp`,
-          full: `src/assets/images/photography/bad-luck/full/bad-luck-${number}.webp`,
+          thumbnail: `src/assets/images/photography/bad-luck/thumb/bad-luck-${number}.jpg`,
+          full: `src/assets/images/photography/bad-luck/full/bad-luck-${number}.jpg`,
           alt: `厄运摄影作品 ${number}`
         };
       })
@@ -439,13 +439,13 @@
       subtitle: "Yao Ji",
       category: "人像摄影",
       description: "以东方服饰、自然场景和梦幻色彩构建带有神话气质的人像影像。",
-      cover: "src/assets/images/photography/yaoji/thumb/yaoji-01.webp",
+      cover: "src/assets/images/photography/yaoji/thumb/yaoji-01.jpg",
       photos: Array.from({ length: 8 }, (_, index) => {
         const number = String(index + 1).padStart(2, "0");
         return {
           title: `瑶姬 ${number}`,
-          thumbnail: `src/assets/images/photography/yaoji/thumb/yaoji-${number}.webp`,
-          full: `src/assets/images/photography/yaoji/full/yaoji-${number}.webp`,
+          thumbnail: `src/assets/images/photography/yaoji/thumb/yaoji-${number}.jpg`,
+          full: `src/assets/images/photography/yaoji/full/yaoji-${number}.jpg`,
           alt: `瑶姬摄影作品 ${number}`
         };
       })
@@ -453,12 +453,12 @@
   ],
   resume: {
     pdf: "src/assets/resume/du-kexin-resume.pdf",
-    note: "点击右侧按钮可在线查看或下载我的 PDF 简历。"
+    note: "点击右侧按钮可在线预览我的 PDF 简历。"
   },
   contact: {
     email: "2728172670@qq.com",
     socials: ["小红书", "B站", "Instagram", "Behance"],
-    note: "社交主页链接可在 siteData.js 中补充。"
+    note: ""
   }
 };
 
