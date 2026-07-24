@@ -135,7 +135,7 @@
         "验证 AI 工具辅助网页开发和创意流程整理的可行性。"
       ],
       github: "https://github.com/Xianliangzi/ai-creative-radar",
-      demo: "https://ai-creative-radar-f93q5jb8i-dkx1.vercel.app/",
+      demo: "https://ai-creative-radar-d6dojveb06bd7f-1429388415.tcloudbaseapp.com/",
       extraVideos: [
         {
           title: "详情展示",
