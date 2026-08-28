@@ -2,14 +2,14 @@
   profile: {
     nameCn: "杜可心",
     nameEn: "Annie",
-    titleCn: "AI探索者 × 数字媒体创作者",
-    titleEn: "AI Explorer / Creative Technologist",
-    summary: "我是一名数字媒体艺术背景的创作者，持续探索 AI 技术如何应用于创意表达、工作流程优化和实际问题解决。",
+    titleCn: "内容洞察 × 产品实践 × AI应用",
+    titleEn: "CONTENT INSIGHT / PRODUCT PRACTICE / AI",
+    summary: "我拥有数字媒体艺术与内容运营背景，关注用户、内容和真实工作场景中的问题，并通过产品设计、数据分析、AI工具与视觉表达，将观察转化为可以落地和验证的实践。",
     school: "广东工业大学",
     major: "数字媒体艺术专业",
     introVideo: { src: "src/assets/videos/about-intro.mp4", poster: "src/assets/images/about-intro-cover.webp" },
-    keywords: ["AI Exploration", "AIGC Creation", "Data Analysis", "Creative Technology", "Visual Design"],
-    directions: ["AI工具探索", "数字创意实践", "数据分析", "视觉表达"],
+    keywords: ["Product Practice", "Content Insight", "AI Workflow", "Data Analysis", "Creative Technology"],
+    directions: ["产品与工具", "内容与运营", "AI工作流", "视觉与表达"],
     abilities: [
       {
         title: "AI实践能力",
@@ -27,37 +27,63 @@
   },
   nav: [
     { labelCn: "首页", labelEn: "Home", href: "index.html#home" },
-    { labelCn: "关于我", labelEn: "About Me", href: "index.html#about" },
-    { labelCn: "实习经历", labelEn: "Experience", href: "index.html#experience" },
-    { labelCn: "项目作品", labelEn: "Projects", href: "index.html#projects" },
-    { labelCn: "荣誉经历", labelEn: "Awards", href: "index.html#awards" },
-    { labelCn: "创意实验室", labelEn: "Creative Lab", href: "index.html#creative-lab" },
+    { labelCn: "作品", labelEn: "Work", href: "index.html#projects" },
+    { labelCn: "能力", labelEn: "Capabilities", href: "index.html#capabilities" },
+    { labelCn: "经历", labelEn: "Experience", href: "index.html#experience" },
+    { labelCn: "内容", labelEn: "Content", href: "index.html#content-practice" },
+    { labelCn: "荣誉", labelEn: "Awards", href: "index.html#awards" },
+    { labelCn: "实验室", labelEn: "Lab", href: "index.html#creative-lab" },
+    { labelCn: "关于", labelEn: "About", href: "index.html#about" },
     { labelCn: "简历", labelEn: "Resume", href: "index.html#resume" },
     { labelCn: "联系", labelEn: "Contact", href: "index.html#contact" }
   ],
-  featuredProjectIds: ["ai-creative-radar", "algorithm-sutra", "creator-discovery-tool"],
+  featuredProjectIds: ["her-emotional-companion", "creator-discovery-tool", "ai-creative-radar", "smart-medicine-box"],
   experiences: [
+    {
+      id: "stepfun",
+      company: "阶跃星辰",
+      role: "产品实习生",
+      period: "2026.08 - 至今",
+      tags: ["AI Agent产品", "产品开发", "真机验证", "开发者生态"],
+      summary: "面向 AI 原生手机的内部场景验证与开发者生态建设，负责 AI DJ 产品从需求分析、PRD、开发部署到真机验证的完整落地，并参与开发者生态 Campaign 策划。",
+      responsibilities: [
+        "围绕 AI 原生手机黑客松的内部场景验证需求，提出 AI DJ 应用场景，使用 Codex 完成需求分析、PRD 撰写、产品开发、部署及真机验证。",
+        "独立搭建手机端双 Deck DJ Engine，实现本地音乐导入、BPM 分析、Tempo 调速、自动对速、节拍对齐、Crossfader 和 3 类 Transition 效果。",
+        "跑通歌曲自动加载、自动切曲、自动混音及 3 首以上连续播放链路。",
+        "围绕“黑客松引流—创作者沉淀与激励—GTM 商业化”框架，输出开发者生态 Campaign 草案并参与方案迭代。"
+      ],
+      achievements: [
+        "AI DJ 已上架公司内部 Agent 应用平台“水产市场”",
+        "完成 AI Agent 产品从需求、开发到真机验证的完整闭环",
+        "实现双 Deck DJ Engine 与 3 类 Transition 效果",
+        "形成涵盖活动节点、创作者运营、Agent 分发和商业化的开发者生态方案"
+      ],
+      growth: "在真实 AI Agent 场景中完成从需求定义到产品落地的全过程，并进一步理解产品验证、开发协作和开发者生态之间的关系。",
+      link: "https://openclawmp.stepfun.com/asset/3fb0db454cc24db7b20076e40bec5895",
+      video: { src: "", poster: "" },
+      cover: "src/assets/images/experience-stepfun-cover.png",
+      images: []
+    },
     {
       id: "baidu",
       company: "百度",
-      role: "创作者运营实习生",
-      period: "2026.06 - 至今",
-      tags: ["创作者运营", "平台生态", "数据分析", "AI工作流"],
-      summary: "参与百度百家号创作者生态运营，负责外国人及高考垂类创作者运营，通过作者筛选、站外挖掘、内容运营和数据分析，推动优质内容供给与创作者生态建设。",
+      role: "创作者生态运营实习生",
+      period: "2026.06 - 2026.08",
+      tags: ["AI工作台", "工作流设计", "数据自动化", "创作者生态"],
+      summary: "围绕创作者发现、建联和数据监控中的重复耗时问题，独立设计并开发 AI Creator Discovery 工作台与可视化日报工具，同时负责垂类创作者筛选、触达和维护。",
       responsibilities: [
-        "基于平台数据工具筛选潜力作者，根据内容质量、活跃度、涨粉情况、内容表现等维度进行作者分析和分层。",
-        "通过抖音、小红书、B站、视频号等渠道挖掘优质创作者，通过私信触达、微信沟通和合作方式推进作者入驻。",
-        "参与高考、志愿填报、外国人看中国等方向的事件集和专题运营。",
-        "使用 Claude Code、Codex 等 AI 工具探索运营流程优化，搭建轻量网页工具辅助数据整理、信息汇总和工作效率提升。"
+        "针对跨平台寻找创作者、判断账号匹配度及推进建联等流程重复耗时的问题，完成 AI Creator Discovery 从业务需求拆解、产品流程设计到本地部署。",
+        "搭建自然语言筛选、公开内容采集、AI 语义匹配评分、人工复核、候选作者入库、CRM 状态管理、Excel/CSV 导出及批量建联辅助链路。",
+        "独立使用 Python 开发可视化本地日报工具，自动合并后台数据、计算分发日环比、涨粉变化和发文量，并识别涨粉 Top 3。",
+        "围绕“外国人在中国”、高考等垂类开展创作者筛选、触达和维护，并通过平台私信、微信及 MCN 合作推动建联与入驻。"
       ],
       achievements: [
-        "累计筛选作者 3000+",
-        "维护核心作者 230+",
-        "参与事件集 / 专题建设 15+",
-        "覆盖内容 500+ 条",
-        "触达创作者 300+"
+        "将单批 20 名目标创作者的检索、筛选、建联和登记流程由约 1—2 小时缩短至约 20 分钟",
+        "工具经直属上级试用，并写入实习交接文档供后续同事部署使用",
+        "日报工具替代 Excel 手工计算，每次约节省 30 分钟",
+        "沉淀创作者发现、建联与数据监控的固定工作流"
       ],
-      growth: "这段经历让我深入理解平台生态运营逻辑，也让我开始探索如何利用 AI 工具提升运营效率，将技术应用到真实业务场景中。",
+      growth: "将一线运营问题转化为可使用的产品工具，完成需求拆解、流程设计、开发部署和效率验证，并积累创作者生态运营经验。",
       video: { src: "src/assets/videos/experience-baidu.mp4", poster: "src/assets/images/experience-baidu-cover.webp" },
       cover: "src/assets/images/experience-baidu-cover.webp",
       images: []
@@ -65,24 +91,24 @@
     {
       id: "oppo",
       company: "OPPO",
-      role: "数字营销实习生",
+      role: "用户增长实习生",
       period: "2026.03 - 2026.06",
-      tags: ["数字营销", "数据分析", "内容策略", "AIGC视觉"],
-      summary: "参与 OPPO 新品营销和小红书内容增长项目，通过用户洞察、内容分析和数据复盘，支持新品传播策略优化。",
+      tags: ["用户增长", "搜索增长", "内容洞察", "AIGC提效"],
+      summary: "负责 OPPO 新品周期内的小红书搜索增长活动，参与内容与用户洞察、新品传播策划、达人协作及 AIGC 内容生产提效。",
       responsibilities: [
-        "参与 Reno16 新品年轻化传播方向讨论，围绕学生用户群体分析内容偏好和传播切入点。",
-        "整理 X9s Pro、X9u 等新品投放内容，结合 CTR、回搜率、互动率、种草转化率等指标分析内容表现。",
-        "参与小红书搜索增长项目，拆解产品卖点，跟踪关键词表现，输出优化建议。",
-        "探索 Midjourney、即梦等 AI 工具辅助营销视觉创作，包括视觉方向探索、素材生成和创意方案辅助。"
+        "负责 X9s Pro、X9 Ultra 新品周期内“小红书惊喜盒子”搜索活动，规划预热、上市及热度维持阶段的活动节奏。",
+        "独立完成搜索词设置、活动规则、封面海报、图文内容和页面配置，引导用户搜索并浏览指定关键词内容。",
+        "从点击、互动、搜索和种草效果等维度筛选并沉淀 30+ 篇高表现内容，为后续策划和复盘提供参考。",
+        "参与 Reno16 年轻化传播策划，并根据品牌契合度、自然流量、历史合作表现和用户画像筛选旅行垂类达人。",
+        "使用即梦、GPT、Midjourney 辅助视觉方案、创意脚本和素材探索，沉淀内容生产 SOP。"
       ],
       achievements: [
-        "筛选高转化笔记 30+ 篇",
-        "建立新品投放素材库",
-        "素材复用率提升约 40%",
-        "跟踪 15 个重点搜索词",
-        "搜索排名提升 10 位+"
+        "独立执行 X9s Pro、X9 Ultra 新品搜索增长活动配置",
+        "筛选并沉淀 30+ 篇高表现内容",
+        "筛选 20+ 名旅行垂类达人并协助 KOC/KOL 建联与内容审核",
+        "形成涵盖提示词、画面尺寸、标题字号和视觉标准的内容生产 SOP"
       ],
-      growth: "这段经历让我认识到内容效果不仅依靠创意，也需要结合数据反馈理解用户需求，并不断优化传播策略。",
+      growth: "建立从用户洞察、内容分析到活动配置和传播执行的增长视角，并将 AIGC 工具沉淀为可复用的内容生产流程。",
       video: { src: "src/assets/videos/experience-oppo.mp4", poster: "src/assets/images/experience-oppo-cover.webp" },
       cover: "src/assets/images/experience-oppo-cover.webp",
       images: []
@@ -90,28 +116,53 @@
     {
       id: "art-expo",
       company: "北京当代艺术博览会",
-      role: "内容运营实习生",
-      period: "2025.06 - 2025.08",
-      tags: ["内容策划", "艺术传播", "AI辅助创作"],
-      summary: "参与艺术展会期间的新媒体内容传播工作，负责公众号、小红书等平台内容策划、素材整理和传播优化。",
+      role: "展览运营实习生",
+      period: "2025.05 - 2025.08",
+      tags: ["展览运营", "产品体验优化", "用户增长", "内容传播"],
+      summary: "围绕艺术文化消费产品参与用户需求分析与内容体验优化，并通过展前预热、展中传播和展后复盘的多渠道内容链路提升用户触达。",
       responsibilities: [
-        "围绕展会节点、艺术议题和嘉宾内容进行选题策划。",
-        "整理论坛、访谈等长内容，利用 AI 工具进行转写、观点提炼和结构化整理。",
-        "完成公众号、小红书内容制作，包括文案、视觉排版和发布支持。"
+        "围绕艺术文化消费产品参与用户需求分析与内容体验优化。",
+        "将专业艺术信息转化为用户易理解、易传播的内容形式。",
+        "负责多渠道内容运营，搭建展前预热、展中传播和展后复盘的内容链路。"
       ],
       achievements: [
-        "独立策划“艺术主词人朱珠”官宣内容",
-        "单篇获得 680+ 可见互动",
-        "累计产出内容 15 篇",
-        "平均阅读 3000+"
+        "优化艺术文化信息的用户理解与传播体验",
+        "形成覆盖展览前、中、后的完整内容传播链路",
+        "支持用户触达和活动传播效果提升"
       ],
-      growth: "这段经历提升了我将复杂信息转化为易传播内容的能力，也让我开始尝试利用 AI 优化内容生产流程。",
+      growth: "积累艺术文化消费场景中的用户需求理解、产品体验优化与多渠道内容运营经验。",
       video: { src: "src/assets/videos/experience-art-expo.mp4", poster: "src/assets/images/experience-art-expo-cover.webp" },
       cover: "src/assets/images/experience-art-expo-cover.webp",
       images: []
     }
   ],
   projects: [
+    {
+      id: "her-emotional-companion",
+      title: "her.｜会生长的心声日记",
+      subtitle: "A Growing Emotional Companion",
+      year: "2026",
+      tags: ["Product Definition", "Emotional AI", "Retention Design"],
+      cover: "src/assets/images/project-her-cover.png",
+      video: { src: "", poster: "" },
+      summary: "面向希望低压力记录情绪、获得轻量陪伴的用户，设计一套会因用户心声持续生长的私人陪伴生命体验。",
+      background: "传统情绪记录产品常依赖打卡与任务机制，容易增加用户压力。项目希望通过生命体回应、记忆沉淀与关系成长建立更自然的长期陪伴感。",
+      process: [
+        "搭建“投放心声—情绪识别—生命体回应—生成记忆—长期回看”的核心体验闭环。",
+        "根据记忆数量、记录天数和连续使用情况设计亲近度与生命体演变体系。",
+        "规划“初见—靠近—熟悉—共生”等关系阶段，以状态变化代替签到惩罚。",
+        "使用 React、Vite 与 AI 辅助开发工具实现核心功能，并搭建用户数据隔离与跨设备记忆。"
+      ],
+      tools: ["React", "Vite", "AI Assisted Development", "Product Design"],
+      results: [
+        "完成登录、心声输入、情绪识别、生命体状态和记忆时间轴等核心功能。",
+        "实现情绪筛选、记忆删除、用户数据隔离与跨设备记忆能力。",
+        "预留即梦图片生成接口及个性化情绪视觉字段。"
+      ],
+      github: "https://github.com/Xianliangzi/her-emotional-companion",
+      demo: "https://her-d6g60gj1a0c6ab449-1429388415.tcloudbaseapp.com/",
+      images: []
+    },
     {
       id: "ai-creative-radar",
       title: "AI创意雷达",
@@ -135,7 +186,7 @@
         "验证 AI 工具辅助网页开发和创意流程整理的可行性。"
       ],
       github: "https://github.com/Xianliangzi/ai-creative-radar",
-      demo: "https://ai-creative-radar-d6dojveb06bd7f-1429388415.tcloudbaseapp.com/",
+      demo: "https://ai-creative-radar-d6dojveb06bd7f-1429388415.tcloudbaseapp.com/ai-radar/",
       extraVideos: [
         {
           title: "详情展示",
@@ -181,26 +232,26 @@
     },
     {
       id: "creator-discovery-tool",
-      title: "创作者搜索工具",
-      subtitle: "Creator Discovery Tool",
+      title: "AI Creator Discovery",
+      subtitle: "创作者发现与建联工作台",
       year: "2026",
-      tags: ["AI Workflow", "Creator Operation Tool"],
+      tags: ["Workflow Design", "AI Matching", "Data Automation"],
       cover: "src/assets/images/project-creator-discovery-cover.webp",
       video: { src: "src/assets/videos/project-creator-discovery.mp4", poster: "src/assets/images/project-creator-discovery-cover.webp" },
-      summary: "一个面向真实运营场景的 AI 工作流探索项目，用于辅助创作者搜索、信息整理和候选名单筛选。",
-      background: "在创作者运营工作中，作者发现、信息汇总和初步判断往往需要重复切换平台与表格。这个工具尝试用 AI 和网页工具把重复整理流程变得更轻量，并以 GitHub 代码仓库展示实现思路。",
+      summary: "针对跨平台寻找创作者、判断账号匹配度和推进建联等流程重复耗时的问题，独立设计并开发的创作者发现与建联工作台。",
+      background: "在百度创作者生态运营场景中，检索、筛选、建联和登记需要反复切换平台与表格。项目将真实业务流程转化为可部署的AI工作台。",
       process: [
-        "拆解创作者挖掘流程，明确搜索、记录、筛选、备注等高频动作。",
-        "设计轻量网页界面，把分散信息整理为更易比较的候选卡片。",
-        "探索使用 AI 辅助提炼账号定位、内容特征和合作价值。",
-        "通过真实工作场景反馈调整字段和操作路径。"
+        "拆解创作者检索、筛选、建联与登记流程，完成需求定义和产品流程设计。",
+        "跑通自然语言需求输入、抖音/B站公开内容采集、AI语义匹配评分和人工复核。",
+        "实现候选作者入库、CRM状态管理、Excel/CSV导出及批量建联辅助链路。",
+        "根据直属上级试用反馈迭代字段与操作流程，并完成本地部署和交接。"
       ],
-      tools: ["AI Workflow", "Web Prototype", "Data Sorting", "Claude Code", "Codex"],
+      tools: ["AI Workflow", "Web Development", "CRM", "Claude Code", "Codex"],
       results: [
-        "形成面向创作者运营的轻量工具原型。",
-        "减少重复整理信息的时间成本。",
-        "展示 AI 在真实工作流程优化中的应用潜力。",
-        "项目代码已上传 GitHub，作为工作流工具案例进行展示。"
+        "将单批20名目标创作者的完整处理流程由约1—2小时缩短至约20分钟。",
+        "工具经直属上级试用并写入实习交接文档。",
+        "可返回作者名称、主页链接、粉丝数、联系方式及匹配评分。",
+        "沉淀可供后续同事本地部署和继续使用的工作流。"
       ],
       github: "https://github.com/Xianliangzi/ai-creator-discovery",
       demo: "",
@@ -272,6 +323,16 @@
   ],
   awards: [
     {
+      id: "smart-medicine-box-3c-national-second",
+      category: "获奖",
+      title: "基于情境感知技术的智能药箱设计",
+      subtitle: "中国好创意暨全国数字艺术设计大赛 全国总决赛 二等奖",
+      description: "作品《基于情境感知技术的智能药箱设计》获中国好创意暨全国数字艺术设计大赛本科组社会创新类全国总决赛二等奖。",
+      image: "src/assets/images/awards/smart-medicine-box-3c-national-second.png",
+      date: "2026.08",
+      details: ["参赛组别：本科组", "竞赛类别：社会创新类", "奖项：全国总决赛二等奖", "参赛院校：广东工业大学", "指导教师：刘丹云", "证书编号：ZCS-20thGS-01746"]
+    },
+    {
       id: "milan-plant-immersive-second",
       category: "获奖",
       title: "植物电信号驱动的沉浸式数字交互艺术装置",
@@ -312,19 +373,25 @@
       details: ["Manuscript No.：IMPES-6312", "Author name(s)：Kexin Du, Wenxin Huo and Zihan Yang", "Conference：IMPES 2024"]
     }
   ],
-  creativeLab: [
+  contentPractice: [
     {
-      titleCn: "账号运营",
-      titleEn: "Channel Practice",
-      type: "channel",
-      description: "个人短视频账号与 IP 内容实践，包含 IP 二创、漫画解说、人物解析和日常 Vlog 创作。",
-      cover: "src/assets/images/lab-channel-naiwa-douyin.webp",
-      link: "channels.html",
-      linkLabel: "查看账号案例",
-      accountName: "2 个账号案例",
-      accountType: "IP二创 / 漫画解说 / Vlog",
-      tags: ["账号运营", "短视频内容", "IP二创", "个人兴趣表达"]
+      title: "AI 视觉灵感图谱",
+      subtitle: "AI Visual Atlas",
+      description: "把小红书、Pinterest 与影视画面中的视觉灵感，转译为可检索、可沟通、可调试的 AI 创作语言。",
+      metrics: ["三类灵感来源", "7 维视觉词典"],
+      tags: ["灵感管理", "风格提炼", "AI 生成", "迭代诊断"],
+      link: "visual-atlas.html"
     },
+    {
+      title: "电影兴趣社群运营",
+      subtitle: "Community Operation",
+      description: "从0到1搭建电影兴趣社群，完成公域引流、私域承接、话题设计、内容分享和日常维护。",
+      metrics: ["累计触达 300+", "私域转化 160+"],
+      tags: ["社群搭建", "用户承接", "话题运营", "私域转化"],
+      link: "community.html"
+    }
+  ],
+  creativeLab: [
     {
       titleCn: "摄影作品",
       titleEn: "Photography",
@@ -461,5 +528,3 @@
     note: ""
   }
 };
-
-

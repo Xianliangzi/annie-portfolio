@@ -23,6 +23,20 @@
     renderers.renderChannels(data);
   } else if (page === "ai-visual") {
     renderers.renderAiVisual(data);
+  } else if (page === "visual-atlas") {
+    renderers.renderVisualAtlas(data);
+  } else if (page === "community-case") {
+    renderers.renderCommunityCase(data);
+  } else if (page === "product-method") {
+    renderers.renderProductMethod(data);
+  } else if (page === "user-insight") {
+    renderers.renderUserInsight(data);
+  } else if (page === "content-strategy") {
+    renderers.renderContentStrategy(data);
+  } else if (page === "ai-workflow") {
+    renderers.renderAiWorkflow(data);
+  } else if (page === "data-method") {
+    renderers.renderDataMethod(data);
   } else {
     renderers.renderHome(data);
   }
