@@ -160,7 +160,7 @@
         "预留即梦图片生成接口及个性化情绪视觉字段。"
       ],
       github: "https://github.com/Xianliangzi/her-emotional-companion",
-      demo: "https://her-d6g60gj1a0c6ab449-1429388415.tcloudbaseapp.com/",
+      demo: "https://her.dukexin.cn/",
       images: []
     },
     {
@@ -186,7 +186,7 @@
         "验证 AI 工具辅助网页开发和创意流程整理的可行性。"
       ],
       github: "https://github.com/Xianliangzi/ai-creative-radar",
-      demo: "https://ai-creative-radar-d6dojveb06bd7f-1429388415.tcloudbaseapp.com/ai-radar/",
+      demo: "https://dukexin.cn/ai-radar/",
       extraVideos: [
         {
           title: "详情展示",
