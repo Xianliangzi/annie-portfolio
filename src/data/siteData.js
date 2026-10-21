@@ -42,24 +42,23 @@
     {
       id: "stepfun",
       company: "阶跃星辰",
-      role: "产品实习生",
+      role: "整合营销实习生",
       period: "2026.08 - 至今",
-      tags: ["AI Agent产品", "产品开发", "真机验证", "开发者生态"],
-      summary: "面向 AI 原生手机的内部场景验证与开发者生态建设，负责 AI DJ 产品从需求分析、PRD、开发部署到真机验证的完整落地，并参与开发者生态 Campaign 策划。",
+      tags: ["AI Agent落地", "产品定位与策略", "开发者生态策划", "整合营销"],
+      summary: "面向 AI 原生终端的整合营销实践：主导 AI DJ Agent MVP 的场景验证与落地，参与产品定位与上市策略研究，并独立输出开发者生态 Campaign 方案。",
       responsibilities: [
-        "围绕 AI 原生手机黑客松的内部场景验证需求，提出 AI DJ 应用场景，使用 Codex 完成需求分析、PRD 撰写、产品开发、部署及真机验证。",
-        "独立搭建手机端双 Deck DJ Engine，实现本地音乐导入、BPM 分析、Tempo 调速、自动对速、节拍对齐、Crossfader 和 3 类 Transition 效果。",
-        "跑通歌曲自动加载、自动切曲、自动混音及 3 首以上连续播放链路。",
-        "围绕“黑客松引流—创作者沉淀与激励—GTM 商业化”框架，输出开发者生态 Campaign 草案并参与方案迭代。"
+        "AI Agent 落地：面向 AI 原生终端的场景验证需求，提出并使用 Codex 开发 AI DJ Agent MVP，完成需求梳理、产品开发、部署及真机验证；实现 BPM 分析、自动对速、连续切曲与混音，打通系统 Agent 调用链路并上架内部应用平台。",
+        "产品定位与策略：参与 AI 原生终端上市策略研究，结合竞品、用户需求及创作者反馈分析市场机会，对 AI 高频用户、创作者和潜在用户进行分层，协助将技术能力转化为用户可理解的产品价值、使用场景与传播内容。",
+        "开发者生态策划：基于既定的“活动引流—创作者沉淀—应用分发—商业化探索”框架，独立输出开发者生态 Campaign 草案，梳理开发者招募、作品发布、用户反馈及长期运营路径，并根据团队反馈持续迭代。"
       ],
       achievements: [
-        "AI DJ 已上架公司内部 Agent 应用平台“水产市场”",
-        "完成 AI Agent 产品从需求、开发到真机验证的完整闭环",
-        "实现双 Deck DJ Engine 与 3 类 Transition 效果",
-        "形成涵盖活动节点、创作者运营、Agent 分发和商业化的开发者生态方案"
+        "AI DJ Agent MVP 完成从需求梳理、开发、部署到真机验证的完整闭环",
+        "实现 BPM 分析、自动对速、连续切曲与混音，打通系统 Agent 调用链路并上架内部应用平台",
+        "完成 AI 原生终端上市策略研究的用户分层与价值转化分析",
+        "独立输出开发者生态 Campaign 草案，并根据团队反馈持续迭代"
       ],
-      growth: "在真实 AI Agent 场景中完成从需求定义到产品落地的全过程，并进一步理解产品验证、开发协作和开发者生态之间的关系。",
-      link: "https://openclawmp.stepfun.com/asset/3fb0db454cc24db7b20076e40bec5895",
+      growth: "以整合营销视角打通产品验证、上市策略与开发者生态三条线，理解技术能力如何转化为用户可感知的产品价值与传播内容。",
+      link: "https://github.com/Xianliangzi/mobile-ai-dj",
       video: { src: "", poster: "" },
       cover: "src/assets/images/experience-stepfun-cover.png",
       images: []
